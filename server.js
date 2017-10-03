@@ -16,7 +16,7 @@ app.get('/giphy', function(req, res){
     //     method: 'GET',
         
     // };
-    var url = 'https://api.giphy.com/v1/gifs/search?api_key=iffydHwQsYZmNA4JmRNpn46K8F3P7NNb&q=&limit=25&offset=0&rating=G&lang=en';
+    var url = 'https://api.giphy.com/v1/gifs/search?api_key=iffydHwQsYZmNA4JmRNpn46K8F3P7NNb&q=rubber duckies&limit=1&offset=0&rating=G&lang=en';
     request(url, function(error, response, body) {
         console.log('Error: ', error);
         console.log('statusCode: ', response && response.statusCode);  // print the response status code if resp received.
