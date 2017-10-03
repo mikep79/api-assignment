@@ -1,0 +1,24 @@
+{
+  "name": "api-assignment",
+  "version": "1.0.0",
+  "description": "Working with giphy and api's.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikep79/api-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikep79/api-assignment/issues"
+  },
+  "homepage": "https://github.com/mikep79/api-assignment#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "request": "^2.83.0"
+  }
+}
